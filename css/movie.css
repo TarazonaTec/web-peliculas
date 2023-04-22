@@ -1,0 +1,23 @@
+.movie-info{
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc(100vh - 55.97px);
+    background-size: cover;
+    padding: 0;
+    
+}
+
+.bg-color-custom{
+    background-color: rgba(0,0, 0, 0.5);
+    height:100%;
+}
+
+.movie-info .movie-info__poster{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.movie-info .movie-info__poster-img{
+    width: 90%;
+}
