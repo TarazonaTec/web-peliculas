@@ -21,3 +21,8 @@
 .movie-info .movie-info__poster-img{
     width: 90%;
 }
+
+.movie-info__data{
+    margin-top: 60px;
+    color: #ffffff;
+}
