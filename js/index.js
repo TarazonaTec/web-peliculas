@@ -43,7 +43,7 @@ const renderListMovies = async (type, selector) => {
   popularMovie.forEach((movie, index) => {
     const { id, title, poster_path } = movie;
     const movieCover = `https://image.tmdb.org/t/p/original${poster_path}`;
-    const urlMovie = `../pelicula.html?id=${id}`;
+    const urlMovie = `./pelicula.html?id=${id}`;
     if (index < 5) {
       html += `<li class="list-group-item">
     <img src="${movieCover}" alt="${title}">
